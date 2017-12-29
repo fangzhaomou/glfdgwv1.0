@@ -28,6 +28,7 @@ npm run build --report
 # js-cookie   js操作cookie库
 # vuex   vue全局状态管理
 # vueg    vue转场特效插件
+# vue-i18n   vue国际化
 
 # rasterizehtml  网页截图插件
 # sortablejs   拖拽排序
