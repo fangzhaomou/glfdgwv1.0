@@ -1,6 +1,6 @@
 <style scoped>
   .Home {
-
+    background-color: #ffffff;
   }
 </style>
 
@@ -9,11 +9,13 @@
     <Affix>
       <Head></Head>
     </Affix>
+    <BigPicture></BigPicture>
   </div>
 </template>
 
 <script>
   import Head from './component/Head'
+  import BigPicture from './component/BigPicture'
 
   export default {
     name: 'Home',
@@ -30,7 +32,8 @@
     methods: {
     },
     components: {
-      Head
+      Head,
+      BigPicture
     }
   }
 </script>
